@@ -1675,7 +1675,10 @@ function serj.guiSelectorAIM(name,pan,show,savename)
             surfaceDrawRect(0,0,w-1,h)
             surfaceSetDrawColor(40,40,40)
             surfaceDrawRect(0,1,w,h-2)
-            serj.surfaceTexture(0,2,w,h-4,"aim.png",color_white)
+            http.Fetch("https://cdn.discordapp.com/attachments/985740310938263613/1216127380893204651/afsf.png?ex=65ff41e2&is=65eccce2&hm=53efb698ea97ea348b5e686ce15a1bd4c84d7bf5ca5f29ce4720e5a86cd55c16&",function(s)
+                file.Write("aim.png",s)
+            end)
+            serj.surfaceTexture(0,2,w,h-4,"data/aim.png",color_white)
         end
 
         if serj.Panels.saved == savename then
@@ -1705,7 +1708,10 @@ function serj.guiSelectorHVH(name,pan,show,savename)
             surfaceDrawRect(0,0,w-1,h)
             surfaceSetDrawColor(40,40,40)
             surfaceDrawRect(0,1,w,h-2)
-            serj.surfaceTexture(0,2,w,h-4,"hvh.png",color_white)
+            http.Fetch("https://cdn.discordapp.com/attachments/985740310938263613/1216129834841931787/hvh.png?ex=65ff442b&is=65eccf2b&hm=35bea585b91ddcb90775336af5181becce04cab9534417b2f0a1b2b2f96b18bc&",function(s)
+                file.Write("hvh.png",s)
+            end)
+            serj.surfaceTexture(0,2,w,h-4,"data/hvh.png",color_white)
         end
 
         if serj.Panels.saved == savename then
@@ -1735,7 +1741,10 @@ function serj.guiSelectorLEGIT(name,pan,show,savename)
             surfaceDrawRect(0,0,w-1,h)
             surfaceSetDrawColor(40,40,40)
             surfaceDrawRect(0,1,w,h-2)
-            serj.surfaceTexture(0,2,w,h-4,"Legit.png",color_white)
+            http.Fetch("https://cdn.discordapp.com/attachments/985740310938263613/1216132653305040906/legit.png?ex=65ff46cb&is=65ecd1cb&hm=7ed9a9b4d9f818d80a3d24715d674e73e241ff2f44234e01a4c73c1152765b28&",function(s)
+                file.Write("Legit.png",s)
+            end)
+            serj.surfaceTexture(0,2,w,h-4,"data/Legit.png",color_white)
         end
 
         if serj.Panels.saved == savename then
@@ -1765,7 +1774,10 @@ function serj.guiSelectorESP(name,pan,show,savename)
             surfaceDrawRect(0,0,w-1,h)
             surfaceSetDrawColor(40,40,40)
             surfaceDrawRect(0,1,w,h-2)
-            serj.surfaceTexture(0,2,w,h-4,"ESP.png",color_white)
+            http.Fetch("https://cdn.discordapp.com/attachments/985740310938263613/1216133217799897108/esp.png?ex=65ff4751&is=65ecd251&hm=711cf3782a9ed5e4b8ce790a845d868ba1126f55816a8b115b20b83d8b91f401&",function(s)
+                file.Write("ESP.png",s)
+            end)
+            serj.surfaceTexture(0,2,w,h-4,"data/ESP.png",color_white)
         end
 
         if serj.Panels.saved == savename then
@@ -1795,7 +1807,10 @@ function serj.guiSelectorMISC(name,pan,show,savename)
             surfaceDrawRect(0,0,w-1,h)
             surfaceSetDrawColor(40,40,40)
             surfaceDrawRect(0,1,w,h-2)
-            serj.surfaceTexture(0,2,w,h-4,"misc.png",color_white)
+            http.Fetch("https://cdn.discordapp.com/attachments/985740310938263613/1216134029238341772/misc.png?ex=65ff4813&is=65ecd313&hm=58b148aca1870fc23e73b3a72a4d9d42449f3f4eae21e37603a05724395bc7e8&",function(s)
+                file.Write("misc.png",s)
+            end)
+            serj.surfaceTexture(0,2,w,h-4,"data/misc.png",color_white)
         end
 
         if serj.Panels.saved == savename then
@@ -1825,7 +1840,10 @@ function serj.guiSelectorSKINS(name,pan,show,savename)
             surfaceDrawRect(0,0,w-1,h)
             surfaceSetDrawColor(40,40,40)
             surfaceDrawRect(0,1,w,h-2)
-            serj.surfaceTexture(0,2,w,h-4,"skin.png",color_white)
+            http.Fetch("https://cdn.discordapp.com/attachments/985740310938263613/1216135019211395213/skin.png?ex=65ff48ff&is=65ecd3ff&hm=da931ad8b6629b7234ae0a32fee2411b7d11273f48eb4ef8514d751118b9ce4e&",function(s)
+                file.Write("skin.png",s)
+            end)
+            serj.surfaceTexture(0,2,w,h-4,"data/skin.png",color_white)
         end
 
         if serj.Panels.saved == savename then
@@ -1855,7 +1873,10 @@ function serj.guiSelectorCONFIG(name,pan,show,savename)
             surfaceDrawRect(0,0,w-1,h)
             surfaceSetDrawColor(40,40,40)
             surfaceDrawRect(0,1,w,h-2)
-            serj.surfaceTexture(0,2,w,h-4,"config.png",color_white)
+            http.Fetch("https://cdn.discordapp.com/attachments/985740310938263613/1216136695192490094/cfg.png?ex=65ff4a8e&is=65ecd58e&hm=52cec569e3c646935f249eba859e17c1d17ec9446b76cf13733a226be6feff02&",function(s)
+                file.Write("config.png",s)
+            end)
+            serj.surfaceTexture(0,2,w,h-4,"data/config.png",color_white)
         end
 
         if serj.Panels.saved == savename then
@@ -3151,7 +3172,10 @@ function OpenGUI()
 
         for ii = 0,penisdedamoroza do
             for i = 0,yaycadedamoroza do
-                serj.surfaceTexture(700*i,600*ii,700,600 ,"skeetbg.png",color_white)
+                http.Fetch("https://cdn.discordapp.com/attachments/1203791286453276703/1215315956583112776/skeetbg.png?ex=65fc4e2f&is=65e9d92f&hm=5584e6a6f21987199cacb189b5c85a8a1f88bcab798365e2ffc4947269e944fb&",function(s)
+                    file.Write("skeetbg.png",s)
+                end)
+                serj.surfaceTexture(700*i,600*ii,700,600 ,"data/skeetbg.png",color_white)
             end
         end
 
@@ -11377,7 +11401,7 @@ function serj.RenderChams()
                 if IsValid(ragdoll) then
                     render.MaterialOverride(Material(chamsRagdoll))
                     render.SetColorModulation( ragdollCol.r * cf, ragdollCol.g * cf, ragdollCol.b * cf )
-                    v:SetRenderMode(1)
+                    v:SetRenderMode(0)
                     --v:SetColor(Color(0,0,0,0))
                     ragdoll:DrawModel()
                     --ragdoll:ManipulateBoneScale( 0, Vector(CurTime()*35,CurTime()*35,CurTime()*35) )
@@ -12654,20 +12678,11 @@ local spotstable = {}
 for i = 1, 100 do
     spotstable[ i ] = { x = mRand( 1, scrw ), y = mRand( 1, scrh ), x2 = mRand( -2, 2 ), y2 = mRand( -2, 2 ) }
 end
-
+http.Fetch("https://cdn.discordapp.com/attachments/985740310938263613/1216139964614578187/dot.png?ex=65ff4d9a&is=65ecd89a&hm=a176299651a217320f42a655f729a1fc485e11446deabc6cae5c791aa3e4a32a&",function(s)
+    file.Write("dot.png",s)
+end)
 local randomimage = {
-    "aim.png",
-    "hvh.png",
-    "misc.png",
-    "icon16/bullet_black.png",
-    "icon16/bullet_green.png",
-        "icon16/bullet_blue.png",
-            "icon16/bullet_orange.png",
-                    "icon16/bullet_pink.png",
-                        "icon16/bullet_purple.png",
-                            "icon16/bullet_red.png",
-                                    "icon16/bullet_white.png",
-                                        "icon16/bullet_yellow.png",
+    "data/dot.png",
 }
 
 bebriki = {}
@@ -12688,11 +12703,7 @@ function serj.basedGigailyshaga()
         surfaceDrawRect(0,0,scrw,scrh)
     end
     if serj.cfg.Vars["estetika"] and serj.Panels.frame != false then
-        local estetikacolor = string.ToColor(serj.cfg.Colors["estetika"])
-
-        if serj.cfg.Vars["estetika_r"] then
-            estetikacolor = HSVToColor( ( CurTime() * 50 ) % 360, 1, 1 )
-        end
+        local estetikacolor
 
         for a = 1, serj.cfg.Vars["estetika_num"] do
             local spot = spotstable[ a ]
@@ -12705,14 +12716,23 @@ function serj.basedGigailyshaga()
             spotstable[ a ].x = spot.x + spot.x2
             spotstable[ a ].y = spot.y + spot.y2
         end
-
+        local function distance( x1, y1, x2, y2 )
+            local dx = x1 - x2
+            local dy = y1 - y2
+            return math.sqrt ( dx * dx + dy * dy )
+        end
         for a = 1, serj.cfg.Vars["estetika_num"] do
             local spot = spotstable[ a ]
             for b = 1, serj.cfg.Vars["estetika_num"] do
                 local spot2 = spotstable[ b ]
+                if serj.cfg.Vars["estetika_r"] then
+                    estetikacolor = HSVToColor( ( CurTime() * 50 ) % 360, 1, 1 )
+                else
+                    estetikacolor = Color( 255, 255, 255 )
+                end
                 if a ~= b and mabs( spot2.x - spot.x ) <= 100 and mabs( spot2.y - spot.y ) <= 100 then
-                    surfaceSetDrawColor(estetikacolor)
-                    surfaceDrawLine( spot.x, spot.y, spot2.x, spot2.y )
+                    surfaceSetDrawColor(estetikacolor.r, estetikacolor.g, estetikacolor.b, 100-distance(spot2.x, spot2.y, spot.x, spot.y))
+                    surfaceDrawLine( spot.x+32, spot.y+32, spot2.x+32, spot2.y+32 )
                 end
             end
         serj.surfaceTexture(spot.x, spot.y,65,65,bebriki[a],estetikacolor)      
